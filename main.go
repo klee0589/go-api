@@ -32,7 +32,6 @@ func init() {
 	}
 }
 
-// Workout represents a kickboxing workout
 type Workout struct {
 	ID       int    `json:"id"`
 	Name     string `json:"name"`
